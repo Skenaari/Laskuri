@@ -1,0 +1,42 @@
+.LaskuriMain .header input {
+  padding: 10px;
+  margin: 2px;
+  font-size: 14px;
+  border: 2px solid #fff;
+  width: 10%;
+}
+.LaskuriMain .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #0066ff;
+  color: #fff;
+  border: 2px solid #0066ff;
+}
+.LaskuriMain .header button:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+.LaskuriMain .theLaskuri {
+  list-style: none;
+  padding-left: 0;
+  width: 74%;
+}
+.LaskuriMain .theLaskuri li {
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  /* list-style: none; */
+  transition: background-color 0.2s ease-out;
+}
+.LaskuriMain .theLaskuri li:hover {
+  background-color: pink;
+  cursor: pointer;
+}
+/* ul.theLaskuri {
+  padding: 0;
+} */
